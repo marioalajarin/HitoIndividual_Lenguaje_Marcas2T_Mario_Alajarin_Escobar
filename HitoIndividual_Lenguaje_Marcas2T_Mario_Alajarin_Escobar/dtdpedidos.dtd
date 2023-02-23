@@ -1,0 +1,37 @@
+<!ELEMENT pedidos (año_2021, año_2022)>
+<!ELEMENT año_2021 (trimestre_1, trimestre_2, trimestre_3, trimestre_4)>
+<!ELEMENT trimestre_1 (info_pedidos*)>
+<!ELEMENT info_pedidos (nombre, apellidos, telefono, direccion, correo_electronico, fecha_inclusion, info_individual_pedido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (calle, ciudad, codigo_postal, provincia)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT correo_electronico (#PCDATA)>
+<!ELEMENT fecha_inclusion (#PCDATA)>
+<!ELEMENT info_individual_pedido (detalle_numero_pedido, fecha_compra, fecha_entrega, total_factura, info_productos)>
+<!ELEMENT detalle_numero_pedido (#PCDATA)>
+<!ELEMENT fecha_compra (#PCDATA)>
+<!ELEMENT fecha_entrega (#PCDATA)>
+<!ELEMENT total_factura (#PCDATA)>
+<!ELEMENT info_productos (info_producto)>
+<!ELEMENT info_producto (nombre_producto, referencia, precio, unidades)>
+<!ELEMENT nombre_producto (#PCDATA)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+
+<!ELEMENT trimestre_2 (info_pedidos*)>
+
+
+<!ELEMENT trimestre_3 (info_pedidos*)>
+
+
+<!ELEMENT trimestre_4 (info_pedidos*)>
+
+
+
+<!ELEMENT año_2022 (trimestre_1, trimestre_2, trimestre_3, trimestre_4)>

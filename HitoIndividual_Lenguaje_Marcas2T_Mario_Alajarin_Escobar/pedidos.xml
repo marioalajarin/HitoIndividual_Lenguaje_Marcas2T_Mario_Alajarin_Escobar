@@ -1,0 +1,2213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pedidos SYSTEM "dtdpedidos.dtd">
+
+<pedidos>
+    <año_2021>
+        <trimestre_1>
+            <info_pedidos>
+                <nombre>Nombre </nombre>
+                <apellidos>Apellido </apellidos>
+                <telefono>Teléfono </telefono>
+                <direccion>
+                    <calle>Calle </calle>
+                    <ciudad>Ciudad</ciudad>
+                    <codigo_postal>CP</codigo_postal>
+                    <provincia>Provincia/Estado</provincia>
+                </direccion>
+                <correo_electronico>Correo electrónico</correo_electronico>
+                <fecha_inclusion>Fecha de registro</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>Número de pedido</detalle_numero_pedido>
+                    <fecha_compra>Fecha de compra</fecha_compra>
+                    <fecha_entrega>Fecha de entrega</fecha_entrega>
+                    <total_factura>Total de la factura</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Nombre del producto</nombre_producto>
+                            <referencia>Código de referencia</referencia>
+                            <precio>Precio del producto</precio>
+                            <unidades>Unidades deseadas</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Emelita</nombre>
+                <apellidos>Hampstead</apellidos>
+                <telefono>582-552-7583</telefono>
+                <direccion>
+                    <calle>0786 Thompson Circles</calle>
+                    <ciudad>Kenner</ciudad>
+                    <codigo_postal>05193</codigo_postal>
+                    <provincia>Alabama</provincia>
+                </direccion>
+                <correo_electronico>ehampstead0@bizjournals.com</correo_electronico>
+                <fecha_inclusion>20/01/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>001</detalle_numero_pedido>
+                    <fecha_compra>20/01/2021</fecha_compra>
+                    <fecha_entrega>27/01/2021</fecha_entrega>
+                    <total_factura>228,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Realme 10 AMOLED FHD+ 8/128GB Negro Libre</nombre_producto>
+                            <referencia>AA1</referencia>
+                            <precio>228,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Axel</nombre>
+                <apellidos>Anthill</apellidos>
+                <telefono>179-952-4515</telefono>
+                <direccion>
+                    <calle>3469 Ethelyn Vista</calle>
+                    <ciudad>Little Rock</ciudad>
+                    <codigo_postal>79462</codigo_postal>
+                    <provincia>South Dakota</provincia>
+                </direccion>
+                <correo_electronico>aanthill1@phpbb.com</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>002</detalle_numero_pedido>
+                    <fecha_compra>22/02/2021</fecha_compra>
+                    <fecha_entrega>01/03/2021</fecha_entrega>
+                    <total_factura>1022,89€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite Intel Core i5-11400F/16GB/500GBSSD/RTX3060</nombre_producto>
+                            <referencia>AA2</referencia>
+                            <precio>1022,89€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Cyndy</nombre>
+                <apellidos>Wadge</apellidos>
+                <telefono>786-728-3977</telefono>
+                <direccion>
+                    <calle>46955 Mosciski Mill</calle>
+                    <ciudad>Bismarck</ciudad>
+                    <codigo_postal>05863</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>swadge2@un.org</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>003</detalle_numero_pedido>
+                    <fecha_compra>22/02/2021</fecha_compra>
+                    <fecha_entrega>01/03/2021</fecha_entrega>
+                    <total_factura>1919,6€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>MSI GeForce RTX 3060 Ti VENTUS 2X 8GD6X OC 8GB GDDR6X</nombre_producto>
+                            <referencia>AA3</referencia>
+                            <precio>479,90€</precio>
+                            <unidades>4</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Farley</nombre>
+                <apellidos>Colthard</apellidos>
+                <telefono>925-323-3578</telefono>
+                <direccion>
+                    <calle>455 Lea Walks</calle>
+                    <ciudad>San Diego</ciudad>
+                    <codigo_postal>75303</codigo_postal>
+                    <provincia>California</provincia>
+                </direccion>
+                <correo_electronico>ncolthard3@marriott.com</correo_electronico>
+                <fecha_inclusion>25/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>004</detalle_numero_pedido>
+                    <fecha_compra>25/02/2021</fecha_compra>
+                    <fecha_entrega>04/03/2021</fecha_entrega>
+                    <total_factura>399€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon Spica Leather Silla Gaming Gris</nombre_producto>
+                            <referencia>AA4</referencia>
+                            <precio>399€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Brandais</nombre>
+                <apellidos>Hutten</apellidos>
+                <telefono>812-327-6139</telefono>
+                <direccion>
+                    <calle>046 Giuseppe Streets</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>41999</codigo_postal>
+                    <provincia>West Virginia</provincia>
+                </direccion>
+                <correo_electronico>rhutten4@shareasale.com</correo_electronico>
+                <fecha_inclusion>02/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>005</detalle_numero_pedido>
+                    <fecha_compra>02/03/2021</fecha_compra>
+                    <fecha_entrega>09/03/2021</fecha_entrega>
+                    <total_factura>9,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Owlotech Start Webcam 720p</nombre_producto>
+                            <referencia>AA5</referencia>
+                            <precio>9,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wilma</nombre>
+                <apellidos>Taig</apellidos>
+                <telefono>899-611-0473</telefono>
+                <direccion>
+                    <calle>8559 Schumm Glen</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>96890</codigo_postal>
+                    <provincia>Wyoming</provincia>
+                </direccion>
+                <correo_electronico>rtaig5@imdb.com</correo_electronico>
+                <fecha_inclusion>01/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>006</detalle_numero_pedido>
+                    <fecha_compra>03/03/2021</fecha_compra>
+                    <fecha_entrega>10/03/2021</fecha_entrega>
+                    <total_factura>21,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Owlotech Altavoz Bluetooth Mini Negro</nombre_producto>
+                            <referencia>AA6</referencia>
+                            <precio>21,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Kirsti</nombre>
+                <apellidos>Vaskov</apellidos>
+                <telefono>615-734-4337</telefono>
+                <direccion>
+                    <calle>230 Koelpin Ferry</calle>
+                    <ciudad>Cheyenne</ciudad>
+                    <codigo_postal>02225</codigo_postal>
+                    <provincia>Ohio</provincia>
+                </direccion>
+                <correo_electronico>dvaskov6@digg.com</correo_electronico>
+                <fecha_inclusion>12/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>007</detalle_numero_pedido>
+                    <fecha_compra>04/03/2021</fecha_compra>
+                    <fecha_entrega>11/03/2021</fecha_entrega>
+                    <total_factura>21,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Owlotech K500TV Teclado Bluetooth con Touchpad</nombre_producto>
+                            <referencia>AA7</referencia>
+                            <precio>21,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Mirabel</nombre>
+                <apellidos>Fumagall</apellidos>
+                <telefono>427-413-1122</telefono>
+                <direccion>
+                    <calle>53805 Gilbert Center</calle>
+                    <ciudad>Denver</ciudad>
+                    <codigo_postal>84739</codigo_postal>
+                    <provincia>Vermont</provincia>
+                </direccion>
+                <correo_electronico>lfumagall7@virginia.edu</correo_electronico>
+                <fecha_inclusion>21/01/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>008</detalle_numero_pedido>
+                    <fecha_compra>05/03/2021</fecha_compra>
+                    <fecha_entrega>12/03/2021</fecha_entrega>
+                    <total_factura>29,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Tempest Chromatose Chroma Set para Streaming</nombre_producto>
+                            <referencia>AA8</referencia>
+                            <precio>14,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Innis</nombre>
+                <apellidos>Digan</apellidos>
+                <telefono>233-666-0729</telefono>
+                <direccion>
+                    <calle>09144 Kovacek Cliffs</calle>
+                    <ciudad>Wilmington</ciudad>
+                    <codigo_postal>85717</codigo_postal>
+                    <provincia>Mississippi</provincia>
+                </direccion>
+                <correo_electronico>ndigan8@google.de</correo_electronico>
+                <fecha_inclusion>30/01/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>009</detalle_numero_pedido>
+                    <fecha_compra>06/03/2021</fecha_compra>
+                    <fecha_entrega>13/03/2021</fecha_entrega>
+                    <total_factura>21,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Tempest Doom H-Mech Teclado RGB</nombre_producto>
+                            <referencia>AA9</referencia>
+                            <precio>21,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Erminie</nombre>
+                <apellidos>Jime</apellidos>
+                <telefono>806-366-1786</telefono>
+                <direccion>
+                    <calle>828 Jakubowski Fields</calle>
+                    <ciudad>Spartanburg</ciudad>
+                    <codigo_postal>60264</codigo_postal>
+                    <provincia>Oklahoma</provincia>
+                </direccion>
+                <correo_electronico>bjime9@domainmarket.com</correo_electronico>
+                <fecha_inclusion>02/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>010</detalle_numero_pedido>
+                    <fecha_compra>07/03/2021</fecha_compra>
+                    <fecha_entrega>14/03/2021</fecha_entrega>
+                    <total_factura>28,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Tempest X20 Vigilant RGB Ratón Gaming 16.000 DPI Negro</nombre_producto>
+                            <referencia>AB1</referencia>
+                            <precio>28,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_1>
+        <trimestre_2>
+            <info_pedidos>
+                <nombre>Wynn</nombre>
+                <apellidos>Pickavant</apellidos>
+                <telefono>211-284-2772</telefono>
+                <direccion>
+                    <calle>243 Kip Isle</calle>
+                    <ciudad>Bellevue</ciudad>
+                    <codigo_postal>04403</codigo_postal>
+                    <provincia>Rhode Island</provincia>
+                </direccion>
+                <correo_electronico>mpickavanta@buzzfeed.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>011</detalle_numero_pedido>
+                    <fecha_compra>20/04/2021</fecha_compra>
+                    <fecha_entrega>27/04/2021</fecha_entrega>
+                    <total_factura>36,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Tempest K10 RGB Teclado Mecánico Gaming Switch Red</nombre_producto>
+                            <referencia>AB2</referencia>
+                            <precio>36,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Brandais</nombre>
+                <apellidos>Hutten</apellidos>
+                <telefono>812-327-6139</telefono>
+                <direccion>
+                    <calle>046 Giuseppe Streets</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>41999</codigo_postal>
+                    <provincia>West Virginia</provincia>
+                </direccion>
+                <correo_electronico>rhutten4@shareasale.com</correo_electronico>
+                <fecha_inclusion>02/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>012</detalle_numero_pedido>
+                    <fecha_compra>21/04/2021</fecha_compra>
+                    <fecha_entrega>28/04/2021</fecha_entrega>
+                    <total_factura>149,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon Azoth 240 ARGB Kit de Refrigeración Líquida Negro</nombre_producto>
+                            <referencia>AB3</referencia>
+                            <precio>149,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>013</detalle_numero_pedido>
+                    <fecha_compra>22/04/2021</fecha_compra>
+                    <fecha_entrega>29/04/2021</fecha_entrega>
+                    <total_factura>419,94€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon Bolt PSU 650W 80+ Gold Full Modular Fuente de Alimentación</nombre_producto>
+                            <referencia>AB4</referencia>
+                            <precio>139,98€</precio>
+                            <unidades>3</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Mar</nombre>
+                <apellidos>Nevison</apellidos>
+                <telefono>129-400-2195</telefono>
+                <direccion>
+                    <calle>5614 Kuhlman Walks</calle>
+                    <ciudad>Beaverton</ciudad>
+                    <codigo_postal>83363</codigo_postal>
+                    <provincia>Vermont</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>22/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>014</detalle_numero_pedido>
+                    <fecha_compra>23/04/2021</fecha_compra>
+                    <fecha_entrega>30/04/2021</fecha_entrega>
+                    <total_factura>209,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon Clutch Teclado Gaming RGB 60% Switch Blue</nombre_producto>
+                            <referencia>AB5</referencia>
+                            <precio>104,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Alvira</nombre>
+                <apellidos>Gegg</apellidos>
+                <telefono>556-581-3158</telefono>
+                <direccion>
+                    <calle>8776 Streich Tunnel</calle>
+                    <ciudad>Rockville</ciudad>
+                    <codigo_postal>70455</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>20/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>015</detalle_numero_pedido>
+                    <fecha_compra>24/04/2021</fecha_compra>
+                    <fecha_entrega>01/05/2021</fecha_entrega>
+                    <total_factura>159,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon General Auriculares Gaming Inalámbricos PC/PS4/PS5/Xbox/Xbox X/Switch Negros</nombre_producto>
+                            <referencia>AB6</referencia>
+                            <precio>159,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Brandais</nombre>
+                <apellidos>Hutten</apellidos>
+                <telefono>812-327-6139</telefono>
+                <direccion>
+                    <calle>046 Giuseppe Streets</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>41999</codigo_postal>
+                    <provincia>West Virginia</provincia>
+                </direccion>
+                <correo_electronico>rhutten4@shareasale.com</correo_electronico>
+                <fecha_inclusion>02/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>016</detalle_numero_pedido>
+                    <fecha_compra>01/05/2021</fecha_compra>
+                    <fecha_entrega>08/05/2021</fecha_entrega>
+                    <total_factura>319,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Forgeon Khaydarin ARGB Mesh Torre ATX Blanca</nombre_producto>
+                            <referencia>AB7</referencia>
+                            <precio>159,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davidde</nombre>
+                <apellidos>Fardy</apellidos>
+                <telefono>778-217-6640</telefono>
+                <direccion>
+                    <calle>215 Kareem Points</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>60121</codigo_postal>
+                    <provincia>Alabama</provincia>
+                </direccion>
+                <correo_electronico>sfardyg@dedecms.com</correo_electronico>
+                <fecha_inclusion>12/05/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>017</detalle_numero_pedido>
+                    <fecha_compra>12/05/2021</fecha_compra>
+                    <fecha_entrega>19/05/2021</fecha_entrega>
+                    <total_factura>1022,89€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite Intel Core i5-11400F/16GB/500GBSSD/RTX3060</nombre_producto>
+                            <referencia>AB8</referencia>
+                            <precio>1022,89€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Robbyn</nombre>
+                <apellidos>Jarmain</apellidos>
+                <telefono>360-718-6523</telefono>
+                <direccion>
+                    <calle>213 Sally Lakes</calle>
+                    <ciudad>Deerfield Beach</ciudad>
+                    <codigo_postal>78768</codigo_postal>
+                    <provincia>New Jersey</provincia>
+                </direccion>
+                <correo_electronico>cjarmainh@shutterfly.com</correo_electronico>
+                <fecha_inclusion>01/06/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>018</detalle_numero_pedido>
+                    <fecha_compra>01/06/2021</fecha_compra>
+                    <fecha_entrega>08/06/2021</fecha_entrega>
+                    <total_factura>228,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Realme 10 AMOLED FHD+ 8/128GB Negro Libre</nombre_producto>
+                            <referencia>AB9</referencia>
+                            <precio>228,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Eleonore</nombre>
+                <apellidos>Whatford</apellidos>
+                <telefono>786-808-5323</telefono>
+                <direccion>
+                    <calle>47810 Mante Skyway</calle>
+                    <ciudad>Mentor</ciudad>
+                    <codigo_postal>67612</codigo_postal>
+                    <provincia>Nebraska</provincia>
+                </direccion>
+                <correo_electronico>cwhatfordi@mail.ru</correo_electronico>
+                <fecha_inclusion>04/06/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>019</detalle_numero_pedido>
+                    <fecha_compra>04/06/2021</fecha_compra>
+                    <fecha_entrega>11/06/2021</fecha_entrega>
+                    <total_factura>1410,06</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Bronze AMD Ryzen 5 5600G/16GB/1TBSSD</nombre_producto>
+                            <referencia>AC1</referencia>
+                            <precio>705,03€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Fanechka</nombre>
+                <apellidos>Yakobowitz</apellidos>
+                <telefono>850-733-2481</telefono>
+                <direccion>
+                    <calle>9581 Daphney Shoal</calle>
+                    <ciudad>Bowling Green</ciudad>
+                    <codigo_postal>41888</codigo_postal>
+                    <provincia>Tennessee</provincia>
+                </direccion>
+                <correo_electronico>hyakobowitzj@canalblog.com</correo_electronico>
+                <fecha_inclusion>16/05/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>020</detalle_numero_pedido>
+                    <fecha_compra>17/05/2021</fecha_compra>
+                    <fecha_entrega>24/05/2021</fecha_entrega>
+                    <total_factura>1122,78€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Bronze Intel Core i5-10400/8GB/1TB+480SSD</nombre_producto>
+                            <referencia>AC2</referencia>
+                            <precio>561,39€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_2>
+        <trimestre_3>
+            <info_pedidos>
+                <nombre>Issi</nombre>
+                <apellidos>Hindsberg</apellidos>
+                <telefono>693-394-3576</telefono>
+                <direccion>
+                    <calle>0373 Cremin Crossing</calle>
+                    <ciudad>Valdosta</ciudad>
+                    <codigo_postal>04605</codigo_postal>
+                    <provincia>Nebraska</provincia>
+                </direccion>
+                <correo_electronico>hhindsbergk@joomla.org</correo_electronico>
+                <fecha_inclusion>04/07/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>021</detalle_numero_pedido>
+                    <fecha_compra>04/07/2021</fecha_compra>
+                    <fecha_entrega>11/07/2021</fecha_entrega>
+                    <total_factura>1089,52€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Silver AMD Ryzen 5 5500/16GB/500GB SSD/RTX 3050</nombre_producto>
+                            <referencia>AC3</referencia>
+                            <precio>1089,52€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Happy</nombre>
+                <apellidos>Neil</apellidos>
+                <telefono>129-562-7311</telefono>
+                <direccion>
+                    <calle>07912 Kovacek Crossing</calle>
+                    <ciudad>Burlington</ciudad>
+                    <codigo_postal>84883</codigo_postal>
+                    <provincia>California</provincia>
+                </direccion>
+                <correo_electronico>cneill@spotify.com</correo_electronico>
+                <fecha_inclusion>11/08/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>022</detalle_numero_pedido>
+                    <fecha_compra>11/08/2021</fecha_compra>
+                    <fecha_entrega>18/08/2021</fecha_entrega>
+                    <total_factura>240€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>AOC 27B2H 27" LED IPS FullHD 75Hz</nombre_producto>
+                            <referencia>AC4</referencia>
+                            <precio>120€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>023</detalle_numero_pedido>
+                    <fecha_compra>12/08/2021</fecha_compra>
+                    <fecha_entrega>19/08/2021</fecha_entrega>
+                    <total_factura>114,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Asus VA24EHE 23.8" LED IPS FullHD FreeSync</nombre_producto>
+                            <referencia>AC5</referencia>
+                            <precio>114,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Celestyna</nombre>
+                <apellidos>Cleary</apellidos>
+                <telefono>218-199-1082</telefono>
+                <direccion>
+                    <calle>9872 Crooks Ford</calle>
+                    <ciudad>Augusta-Richmond County</ciudad>
+                    <codigo_postal>84355</codigo_postal>
+                    <provincia>Indiana</provincia>
+                </direccion>
+                <correo_electronico>wclearyn@washingtonpost.com</correo_electronico>
+                <fecha_inclusion>08/09/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>024</detalle_numero_pedido>
+                    <fecha_compra>08/09/2021</fecha_compra>
+                    <fecha_entrega>15/09/2021</fecha_entrega>
+                    <total_factura>149,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>MSI PRO MP243P 23.8" LED IPS FullHD 75Hz</nombre_producto>
+                            <referencia>AC6</referencia>
+                            <precio>149,98€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>025</detalle_numero_pedido>
+                    <fecha_compra>09/09/2021</fecha_compra>
+                    <fecha_entrega>16/09/2021</fecha_entrega>
+                    <total_factura>999,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung Odyssey G6 LS27BG650EUXEN 27" LED QHD 240Hz FreeSync Premium Pro Smart Curva</nombre_producto>
+                            <referencia>AC7</referencia>
+                            <precio>499,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Brandais</nombre>
+                <apellidos>Hutten</apellidos>
+                <telefono>812-327-6139</telefono>
+                <direccion>
+                    <calle>046 Giuseppe Streets</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>41999</codigo_postal>
+                    <provincia>West Virginia</provincia>
+                </direccion>
+                <correo_electronico>rhutten4@shareasale.com</correo_electronico>
+                <fecha_inclusion>02/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>026</detalle_numero_pedido>
+                    <fecha_compra>10/09/2021</fecha_compra>
+                    <fecha_entrega>19/09/2021</fecha_entrega>
+                    <total_factura>25490,1€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>MSI MEG Trident X 12VTE-042IB Intel Core i7-12700KF/32GB/1TB SSD/RTX 3070Ti</nombre_producto>
+                            <referencia>AC8</referencia>
+                            <precio>2549,01€</precio>
+                            <unidades>10</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Erminie</nombre>
+                <apellidos>Jime</apellidos>
+                <telefono>806-366-1786</telefono>
+                <direccion>
+                    <calle>828 Jakubowski Fields</calle>
+                    <ciudad>Spartanburg</ciudad>
+                    <codigo_postal>60264</codigo_postal>
+                    <provincia>Oklahoma</provincia>
+                </direccion>
+                <correo_electronico>bjime9@domainmarket.com</correo_electronico>
+                <fecha_inclusion>02/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>027</detalle_numero_pedido>
+                    <fecha_compra>11/09/2021</fecha_compra>
+                    <fecha_entrega>18/09/2021</fecha_entrega>
+                    <total_factura>72,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Thrustmaster T.Flight Hotas X PC/PS3</nombre_producto>
+                            <referencia>AC9</referencia>
+                            <precio>72,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Emelita</nombre>
+                <apellidos>Hampstead</apellidos>
+                <telefono>582-552-7583</telefono>
+                <direccion>
+                    <calle>0786 Thompson Circles</calle>
+                    <ciudad>Kenner</ciudad>
+                    <codigo_postal>05193</codigo_postal>
+                    <provincia>Alabama</provincia>
+                </direccion>
+                <correo_electronico>ehampstead0@bizjournals.com</correo_electronico>
+                <fecha_inclusion>20/01/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>028</detalle_numero_pedido>
+                    <fecha_compra>12/09/2021</fecha_compra>
+                    <fecha_entrega>19/09/2021</fecha_entrega>
+                    <total_factura>1567,4€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Happers Pack Puff Gamer Pro + Reposapiés + Cojín Gris</nombre_producto>
+                            <referencia>AD1</referencia>
+                            <precio>156,74€</precio>
+                            <unidades>10</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>029</detalle_numero_pedido>
+                    <fecha_compra>13/09/2021</fecha_compra>
+                    <fecha_entrega>20/09/2021</fecha_entrega>
+                    <total_factura>7007,8€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Optoma 3651RK Pantalla de Señalización Digital LED 65" UltraHD 4K</nombre_producto>
+                            <referencia>AD2</referencia>
+                            <precio>1401,56€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Cyndy</nombre>
+                <apellidos>Wadge</apellidos>
+                <telefono>786-728-3977</telefono>
+                <direccion>
+                    <calle>46955 Mosciski Mill</calle>
+                    <ciudad>Bismarck</ciudad>
+                    <codigo_postal>05863</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>swadge2@un.org</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>030</detalle_numero_pedido>
+                    <fecha_compra>14/09/2021</fecha_compra>
+                    <fecha_entrega>21/09/2021</fecha_entrega>
+                    <total_factura>337,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Sony UBP-X800M2 Reproductor Blu-Ray UltraHD 4K HDR Wifi</nombre_producto>
+                            <referencia>AD3</referencia>
+                            <precio>337,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_3>
+        <trimestre_4>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>031</detalle_numero_pedido>
+                    <fecha_compra>01/10/2021</fecha_compra>
+                    <fecha_entrega>08/10/2021</fecha_entrega>
+                    <total_factura>25,9€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Cool Adaptador Dual USB Tipo-C Auriculares+Carga</nombre_producto>
+                            <referencia>AD4</referencia>
+                            <precio>12,95€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Kirsti</nombre>
+                <apellidos>Vaskov</apellidos>
+                <telefono>615-734-4337</telefono>
+                <direccion>
+                    <calle>230 Koelpin Ferry</calle>
+                    <ciudad>Cheyenne</ciudad>
+                    <codigo_postal>02225</codigo_postal>
+                    <provincia>Ohio</provincia>
+                </direccion>
+                <correo_electronico>dvaskov6@digg.com</correo_electronico>
+                <fecha_inclusion>12/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>032</detalle_numero_pedido>
+                    <fecha_compra>10/10/2021</fecha_compra>
+                    <fecha_entrega>17/10/2021</fecha_entrega>
+                    <total_factura>818,3€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Raspberry Pi 4 Modelo B 2GB</nombre_producto>
+                            <referencia>AD5</referencia>
+                            <precio>163,66€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Desirae</nombre>
+                <apellidos>Galia</apellidos>
+                <telefono>819-589-5489</telefono>
+                <direccion>
+                    <calle>586 Willms Center</calle>
+                    <ciudad>Kansas City</ciudad>
+                    <codigo_postal>00577</codigo_postal>
+                    <provincia>Nebraska</provincia>
+                </direccion>
+                <correo_electronico>egaliaw@marketwatch.com</correo_electronico>
+                <fecha_inclusion>12/10/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>033</detalle_numero_pedido>
+                    <fecha_compra>12/10/2021</fecha_compra>
+                    <fecha_entrega>19/10/2021</fecha_entrega>
+                    <total_factura>25,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Mibro C2 Reloj Smartwatch Negro</nombre_producto>
+                            <referencia>AD6</referencia>
+                            <precio>25,98€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Alvira</nombre>
+                <apellidos>Gegg</apellidos>
+                <telefono>556-581-3158</telefono>
+                <direccion>
+                    <calle>8776 Streich Tunnel</calle>
+                    <ciudad>Rockville</ciudad>
+                    <codigo_postal>70455</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>20/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>034</detalle_numero_pedido>
+                    <fecha_compra>13/10/2021</fecha_compra>
+                    <fecha_entrega>20/10/2021</fecha_entrega>
+                    <total_factura>2492,7€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Basic Intel Core i5 10400/16GB/500GB SSD</nombre_producto>
+                            <referencia>AD7</referencia>
+                            <precio>498,54€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Axel</nombre>
+                <apellidos>Anthill</apellidos>
+                <telefono>179-952-4515</telefono>
+                <direccion>
+                    <calle>3469 Ethelyn Vista</calle>
+                    <ciudad>Little Rock</ciudad>
+                    <codigo_postal>79462</codigo_postal>
+                    <provincia>South Dakota</provincia>
+                </direccion>
+                <correo_electronico>aanthill1@phpbb.com</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>035</detalle_numero_pedido>
+                    <fecha_compra>14/10/2021</fecha_compra>
+                    <fecha_entrega>21/10/2021</fecha_entrega>
+                    <total_factura>131,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Kioxia Exceria G2 Unidad SSD 1TB NVMe M.2 2280</nombre_producto>
+                            <referencia>AD8</referencia>
+                            <precio>65,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wynn</nombre>
+                <apellidos>Pickavant</apellidos>
+                <telefono>211-284-2772</telefono>
+                <direccion>
+                    <calle>243 Kip Isle</calle>
+                    <ciudad>Bellevue</ciudad>
+                    <codigo_postal>04403</codigo_postal>
+                    <provincia>Rhode Island</provincia>
+                </direccion>
+                <correo_electronico>mpickavanta@buzzfeed.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>036</detalle_numero_pedido>
+                    <fecha_compra>15/10/2021</fecha_compra>
+                    <fecha_entrega>22/10/2021</fecha_entrega>
+                    <total_factura>326,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Lenovo V15 IGL Intel Celeron N4020/8GB/256 GB SSD/15.6"</nombre_producto>
+                            <referencia>AD9</referencia>
+                            <precio>326,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Kirsti</nombre>
+                <apellidos>Vaskov</apellidos>
+                <telefono>615-734-4337</telefono>
+                <direccion>
+                    <calle>230 Koelpin Ferry</calle>
+                    <ciudad>Cheyenne</ciudad>
+                    <codigo_postal>02225</codigo_postal>
+                    <provincia>Ohio</provincia>
+                </direccion>
+                <correo_electronico>dvaskov6@digg.com</correo_electronico>
+                <fecha_inclusion>12/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>037</detalle_numero_pedido>
+                    <fecha_compra>16/10/2021</fecha_compra>
+                    <fecha_entrega>23/10/2021</fecha_entrega>
+                    <total_factura>1022,89€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite Intel Core i5-11400F/16GB/500GBSSD/RTX3060</nombre_producto>
+                            <referencia>AE1</referencia>
+                            <precio>1022,89€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Emelita</nombre>
+                <apellidos>Hampstead</apellidos>
+                <telefono>582-552-7583</telefono>
+                <direccion>
+                    <calle>0786 Thompson Circles</calle>
+                    <ciudad>Kenner</ciudad>
+                    <codigo_postal>05193</codigo_postal>
+                    <provincia>Alabama</provincia>
+                </direccion>
+                <correo_electronico>ehampstead0@bizjournals.com</correo_electronico>
+                <fecha_inclusion>20/01/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>038</detalle_numero_pedido>
+                    <fecha_compra>17/10/2021</fecha_compra>
+                    <fecha_entrega>24/10/2021</fecha_entrega>
+                    <total_factura>337,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>AOC 24G2SAE/BK 23.8" LED FullHD 165Hz FreeSync Premium</nombre_producto>
+                            <referencia>AE2</referencia>
+                            <precio>168,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Stephana</nombre>
+                <apellidos>Reck</apellidos>
+                <telefono>749-960-8219</telefono>
+                <direccion>
+                    <calle>477 Oberbrunner Forks</calle>
+                    <ciudad>Dearborn Heights</ciudad>
+                    <codigo_postal>40438</codigo_postal>
+                    <provincia>New Mexico</provincia>
+                </direccion>
+                <correo_electronico>preck12@cafepress.com</correo_electronico>
+                <fecha_inclusion>21/11/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>039</detalle_numero_pedido>
+                    <fecha_compra>21/11/2021</fecha_compra>
+                    <fecha_entrega>28/11/2021</fecha_entrega>
+                    <total_factura>408,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Xiaomi TV P1E 55" LED UltraHD 4K HDR10</nombre_producto>
+                            <referencia>AE3</referencia>
+                            <precio>408,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Granny</nombre>
+                <apellidos>Barehead</apellidos>
+                <telefono>732-445-3353</telefono>
+                <direccion>
+                    <calle>12666 Jameson Mountain</calle>
+                    <ciudad>Chicopee</ciudad>
+                    <codigo_postal>99140</codigo_postal>
+                    <provincia>Georgia</provincia>
+                </direccion>
+                <correo_electronico>vbarehead13@yellowpages.com</correo_electronico>
+                <fecha_inclusion>12/12/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>040</detalle_numero_pedido>
+                    <fecha_compra>12/12/2021</fecha_compra>
+                    <fecha_entrega>19/12/2021</fecha_entrega>
+                    <total_factura>298€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung Galaxy M13 4/64GB Azul Libre</nombre_producto>
+                            <referencia>AE4</referencia>
+                            <precio>149€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_4>
+    </año_2021>
+    <año_2022>
+        <trimestre_1>
+            <info_pedidos>
+                <nombre>Cyndy</nombre>
+                <apellidos>Wadge</apellidos>
+                <telefono>786-728-3977</telefono>
+                <direccion>
+                    <calle>46955 Mosciski Mill</calle>
+                    <ciudad>Bismarck</ciudad>
+                    <codigo_postal>05863</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>swadge2@un.org</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>041</detalle_numero_pedido>
+                    <fecha_compra>01/01/2022</fecha_compra>
+                    <fecha_entrega>08/01/2022</fecha_entrega>
+                    <total_factura>2045,78€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite Intel Core i5-11400F/16GB/500GBSSD/RTX3060</nombre_producto>
+                            <referencia>AE5</referencia>
+                            <precio>1022,89€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wynn</nombre>
+                <apellidos>Pickavant</apellidos>
+                <telefono>211-284-2772</telefono>
+                <direccion>
+                    <calle>243 Kip Isle</calle>
+                    <ciudad>Bellevue</ciudad>
+                    <codigo_postal>04403</codigo_postal>
+                    <provincia>Rhode Island</provincia>
+                </direccion>
+                <correo_electronico>mpickavanta@buzzfeed.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>042</detalle_numero_pedido>
+                    <fecha_compra>02/01/2022</fecha_compra>
+                    <fecha_entrega>09/01/2022</fecha_entrega>
+                    <total_factura>519,9€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Kingston FURY Beast DDR4 3200 MHz 16GB 2x8GB CL16</nombre_producto>
+                            <referencia>AE6</referencia>
+                            <precio>51,99€</precio>
+                            <unidades>10</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Kirsti</nombre>
+                <apellidos>Vaskov</apellidos>
+                <telefono>615-734-4337</telefono>
+                <direccion>
+                    <calle>230 Koelpin Ferry</calle>
+                    <ciudad>Cheyenne</ciudad>
+                    <codigo_postal>02225</codigo_postal>
+                    <provincia>Ohio</provincia>
+                </direccion>
+                <correo_electronico>dvaskov6@digg.com</correo_electronico>
+                <fecha_inclusion>12/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>043</detalle_numero_pedido>
+                    <fecha_compra>03/01/2022</fecha_compra>
+                    <fecha_entrega>10/01/2022</fecha_entrega>
+                    <total_factura>1497,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Lenovo Ideapad Gaming 3 Gen 6 Intel Core i5-11320H/16GB/512GB SSD/GTX 1650/15.6"</nombre_producto>
+                            <referencia>AE7</referencia>
+                            <precio>748,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Robbyn</nombre>
+                <apellidos>Jarmain</apellidos>
+                <telefono>360-718-6523</telefono>
+                <direccion>
+                    <calle>213 Sally Lakes</calle>
+                    <ciudad>Deerfield Beach</ciudad>
+                    <codigo_postal>78768</codigo_postal>
+                    <provincia>New Jersey</provincia>
+                </direccion>
+                <correo_electronico>cjarmainh@shutterfly.com</correo_electronico>
+                <fecha_inclusion>01/06/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>044</detalle_numero_pedido>
+                    <fecha_compra>04/01/2022</fecha_compra>
+                    <fecha_entrega>11/01/2022</fecha_entrega>
+                    <total_factura>2447,7€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Basic Intel Core i5 10400/16GB/500GB SSD</nombre_producto>
+                            <referencia>AE8</referencia>
+                            <precio>489,54€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Danya</nombre>
+                <apellidos>Danat</apellidos>
+                <telefono>327-435-7209</telefono>
+                <direccion>
+                    <calle>2932 Heaney Islands</calle>
+                    <ciudad>Minot</ciudad>
+                    <codigo_postal>61911</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>ddanat@abc.net.au</correo_electronico>
+                <fecha_inclusion>10/01/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>045</detalle_numero_pedido>
+                    <fecha_compra>10/01/2022</fecha_compra>
+                    <fecha_entrega>17/01/2022</fecha_entrega>
+                    <total_factura>249,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>ASUS VZ24EHE 23.8" LED Full HD IPS 75Hz FreeSync</nombre_producto>
+                            <referencia>AE9</referencia>
+                            <precio>124,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Des</nombre>
+                <apellidos>Laurenz</apellidos>
+                <telefono>267-173-9927</telefono>
+                <direccion>
+                    <calle>86783 Agustina Neck</calle>
+                    <ciudad>Burlington</ciudad>
+                    <codigo_postal>08853</codigo_postal>
+                    <provincia>Indiana</provincia>
+                </direccion>
+                <correo_electronico>ilaurenz19@technorati.com</correo_electronico>
+                <fecha_inclusion>12/02/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>046</detalle_numero_pedido>
+                    <fecha_compra>12/02/2022</fecha_compra>
+                    <fecha_entrega>19/02/2022</fecha_entrega>
+                    <total_factura>369,89€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Xiaomi Mi TV P1 50" LED UltraHD 4K HDR10+</nombre_producto>
+                            <referencia>AF1</referencia>
+                            <precio>369,89€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Erminie</nombre>
+                <apellidos>Jime</apellidos>
+                <telefono>806-366-1786</telefono>
+                <direccion>
+                    <calle>828 Jakubowski Fields</calle>
+                    <ciudad>Spartanburg</ciudad>
+                    <codigo_postal>60264</codigo_postal>
+                    <provincia>Oklahoma</provincia>
+                </direccion>
+                <correo_electronico>bjime9@domainmarket.com</correo_electronico>
+                <fecha_inclusion>02/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>047</detalle_numero_pedido>
+                    <fecha_compra>13/02/2022</fecha_compra>
+                    <fecha_entrega>20/02/2022</fecha_entrega>
+                    <total_factura>405,68€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung Galaxy A03s 3/32GB Negro Libre</nombre_producto>
+                            <referencia>AF2</referencia>
+                            <precio>202,84€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Farley</nombre>
+                <apellidos>Colthard</apellidos>
+                <telefono>925-323-3578</telefono>
+                <direccion>
+                    <calle>455 Lea Walks</calle>
+                    <ciudad>San Diego</ciudad>
+                    <codigo_postal>75303</codigo_postal>
+                    <provincia>California</provincia>
+                </direccion>
+                <correo_electronico>ncolthard3@marriott.com</correo_electronico>
+                <fecha_inclusion>25/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>048</detalle_numero_pedido>
+                    <fecha_compra>25/02/2022</fecha_compra>
+                    <fecha_entrega>02/03/2022</fecha_entrega>
+                    <total_factura>949,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Medion Erazer Recon P20 MD35173 Intel Core i5-11400/16GB/512GB SSD/RTX 3060</nombre_producto>
+                            <referencia>AF3</referencia>
+                            <precio>949,98€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Robbyn</nombre>
+                <apellidos>Jarmain</apellidos>
+                <telefono>360-718-6523</telefono>
+                <direccion>
+                    <calle>213 Sally Lakes</calle>
+                    <ciudad>Deerfield Beach</ciudad>
+                    <codigo_postal>78768</codigo_postal>
+                    <provincia>New Jersey</provincia>
+                </direccion>
+                <correo_electronico>cjarmainh@shutterfly.com</correo_electronico>
+                <fecha_inclusion>01/06/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>049</detalle_numero_pedido>
+                    <fecha_compra>01/03/2022</fecha_compra>
+                    <fecha_entrega>08/03/2022</fecha_entrega>
+                    <total_factura>65,67€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Xiaomi Redmi Buds 3 Lite Auriculares Bluetooth Negros</nombre_producto>
+                            <referencia>AF4</referencia>
+                            <precio>21,89€</precio>
+                            <unidades>3</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Axel</nombre>
+                <apellidos>Anthill</apellidos>
+                <telefono>179-952-4515</telefono>
+                <direccion>
+                    <calle>3469 Ethelyn Vista</calle>
+                    <ciudad>Little Rock</ciudad>
+                    <codigo_postal>79462</codigo_postal>
+                    <provincia>South Dakota</provincia>
+                </direccion>
+                <correo_electronico>aanthill1@phpbb.com</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>050</detalle_numero_pedido>
+                    <fecha_compra>02/03/2022</fecha_compra>
+                    <fecha_entrega>09/03/2022</fecha_entrega>
+                    <total_factura>429,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Lenovo IdeaPad 3 15ITL6 Intel Core i3-1115G4/8GB/256GB SSD/15.6" Azul</nombre_producto>
+                            <referencia>AF5</referencia>
+                            <precio>429,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_1>
+        <trimestre_2>
+            <info_pedidos>
+                <nombre>Roldan</nombre>
+                <apellidos>Wendover</apellidos>
+                <telefono>940-757-2986</telefono>
+                <direccion>
+                    <calle>5672 Prosacco Harbor</calle>
+                    <ciudad>Sumter</ciudad>
+                    <codigo_postal>95226</codigo_postal>
+                    <provincia>Wisconsin</provincia>
+                </direccion>
+                <correo_electronico>mwendover1e@jalbum.net</correo_electronico>
+                <fecha_inclusion>10/04/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>051</detalle_numero_pedido>
+                    <fecha_compra>10/04/2022</fecha_compra>
+                    <fecha_entrega>17/04/2022</fecha_entrega>
+                    <total_factura>1208,67€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite Intel Core i5-11400F/16GB/500GB SSD/RTX3060 + Windows 11 Home</nombre_producto>
+                            <referencia>AF6</referencia>
+                            <precio>1208,67€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Dionisio</nombre>
+                <apellidos>Creamer</apellidos>
+                <telefono>851-174-2087</telefono>
+                <direccion>
+                    <calle>74841 Enoch Locks</calle>
+                    <ciudad>Kettering</ciudad>
+                    <codigo_postal>53917</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>gcreamer1f@barnesandnoble.com</correo_electronico>
+                <fecha_inclusion>20/05/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>052</detalle_numero_pedido>
+                    <fecha_compra>20/05/2022</fecha_compra>
+                    <fecha_entrega>27/05/2022</fecha_entrega>
+                    <total_factura>110,14€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Philips 243V7QDSB 23.8" LED IPS FullHD</nombre_producto>
+                            <referencia>AF7</referencia>
+                            <precio>110,14€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Case</nombre>
+                <apellidos>Balfre</apellidos>
+                <telefono>481-188-5252</telefono>
+                <direccion>
+                    <calle>76766 Wunsch Alley</calle>
+                    <ciudad>Mount Vernon</ciudad>
+                    <codigo_postal>32239</codigo_postal>
+                    <provincia>New Jersey</provincia>
+                </direccion>
+                <correo_electronico>rbalfre1g@economist.com</correo_electronico>
+                <fecha_inclusion>01/04/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>053</detalle_numero_pedido>
+                    <fecha_compra>21/05/2022</fecha_compra>
+                    <fecha_entrega>28/05/2022</fecha_entrega>
+                    <total_factura>618€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Xiaomi TV P1E 43" LED UltraHD 4K HDR10</nombre_producto>
+                            <referencia>AF8</referencia>
+                            <precio>309€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Kirsti</nombre>
+                <apellidos>Vaskov</apellidos>
+                <telefono>615-734-4337</telefono>
+                <direccion>
+                    <calle>230 Koelpin Ferry</calle>
+                    <ciudad>Cheyenne</ciudad>
+                    <codigo_postal>02225</codigo_postal>
+                    <provincia>Ohio</provincia>
+                </direccion>
+                <correo_electronico>dvaskov6@digg.com</correo_electronico>
+                <fecha_inclusion>12/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>054</detalle_numero_pedido>
+                    <fecha_compra>23/05/2022</fecha_compra>
+                    <fecha_entrega>30/05/2022</fecha_entrega>
+                    <total_factura>457,78€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Xiaomi Redmi Note 11S 6/128GB Gris Libre</nombre_producto>
+                            <referencia>AF9</referencia>
+                            <precio>228,89€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Alvira</nombre>
+                <apellidos>Gegg</apellidos>
+                <telefono>556-581-3158</telefono>
+                <direccion>
+                    <calle>8776 Streich Tunnel</calle>
+                    <ciudad>Rockville</ciudad>
+                    <codigo_postal>70455</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>20/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>055</detalle_numero_pedido>
+                    <fecha_compra>01/06/2022</fecha_compra>
+                    <fecha_entrega>08/06/2022</fecha_entrega>
+                    <total_factura>1037,05€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Élite II Intel Core i5-11400F/16GB/500GB SSD/RTX 3060</nombre_producto>
+                            <referencia>AG1</referencia>
+                            <precio>1037,05€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Cyndy</nombre>
+                <apellidos>Wadge</apellidos>
+                <telefono>786-728-3977</telefono>
+                <direccion>
+                    <calle>46955 Mosciski Mill</calle>
+                    <ciudad>Bismarck</ciudad>
+                    <codigo_postal>05863</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>swadge2@un.org</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>056</detalle_numero_pedido>
+                    <fecha_compra>02/06/2022</fecha_compra>
+                    <fecha_entrega>09/06/2022</fecha_entrega>
+                    <total_factura>250€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Seagate BarraCuda 3.5" 2TB SATA 3</nombre_producto>
+                            <referencia>AG2</referencia>
+                            <precio>50€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Ingunna</nombre>
+                <apellidos>Baynom</apellidos>
+                <telefono>129-301-0350</telefono>
+                <direccion>
+                    <calle>63672 Gene Turnpike</calle>
+                    <ciudad>Anchorage</ciudad>
+                    <codigo_postal>21789</codigo_postal>
+                    <provincia>Alabama</provincia>
+                </direccion>
+                <correo_electronico>cbaynom1k@storify.com</correo_electronico>
+                <fecha_inclusion>02/06/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>057</detalle_numero_pedido>
+                    <fecha_compra>03/06/2022</fecha_compra>
+                    <fecha_entrega>10/06/2022</fecha_entrega>
+                    <total_factura>599,01€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>HP 15S-EQ2090NS AMD Ryzen 5 5500U/8GB/512GB SSD/15.6"</nombre_producto>
+                            <referencia>AG3</referencia>
+                            <precio>599,01€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Blane</nombre>
+                <apellidos>Went</apellidos>
+                <telefono>526-944-7972</telefono>
+                <direccion>
+                    <calle>21257 Fay Loop</calle>
+                    <ciudad>Ankeny</ciudad>
+                    <codigo_postal>24035</codigo_postal>
+                    <provincia>Nevada</provincia>
+                </direccion>
+                <correo_electronico>swent1l@photobucket.com</correo_electronico>
+                <fecha_inclusion>02/05/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>058</detalle_numero_pedido>
+                    <fecha_compra>04/06/2022</fecha_compra>
+                    <fecha_entrega>11/06/2022</fecha_entrega>
+                    <total_factura>6808,9€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Pro AMD Ryzen 5 5600X/16GB/1TB SSD/RTX 3060</nombre_producto>
+                            <referencia>AG4</referencia>
+                            <precio>1361,78€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Davita</nombre>
+                <apellidos>Klicher</apellidos>
+                <telefono>709-536-7076</telefono>
+                <direccion>
+                    <calle>507 Upton Garden</calle>
+                    <ciudad>Billings</ciudad>
+                    <codigo_postal>95974</codigo_postal>
+                    <provincia>Delaware</provincia>
+                </direccion>
+                <correo_electronico>mnevisond@theatlantic.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>059</detalle_numero_pedido>
+                    <fecha_compra>05/06/2022</fecha_compra>
+                    <fecha_entrega>12/06/2022</fecha_entrega>
+                    <total_factura>395,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>AOC 27G2SAE/BK 27" WLED FullHD 165Hz FreeSync Premium</nombre_producto>
+                            <referencia>AG5</referencia>
+                            <precio>197,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Cyndi</nombre>
+                <apellidos>Raraty</apellidos>
+                <telefono>464-477-5981</telefono>
+                <direccion>
+                    <calle>6427 Newell View</calle>
+                    <ciudad>Frederick</ciudad>
+                    <codigo_postal>05766</codigo_postal>
+                    <provincia>Massachusetts</provincia>
+                </direccion>
+                <correo_electronico>craraty1n@japanpost.jp</correo_electronico>
+                <fecha_inclusion>21/04/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>060</detalle_numero_pedido>
+                    <fecha_compra>06/06/2022</fecha_compra>
+                    <fecha_entrega>13/06/2022</fecha_entrega>
+                    <total_factura>529€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung UE55BU8000K 55" LED UltraHD 4K HDR10+</nombre_producto>
+                            <referencia>AG6</referencia>
+                            <precio>529€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_2>
+        <trimestre_3>
+            <info_pedidos>
+                <nombre>Esma</nombre>
+                <apellidos>Enright</apellidos>
+                <telefono>114-956-0417</telefono>
+                <direccion>
+                    <calle>0126 Kristy Brooks</calle>
+                    <ciudad>Annapolis</ciudad>
+                    <codigo_postal>96478</codigo_postal>
+                    <provincia>South Carolina</provincia>
+                </direccion>
+                <correo_electronico>aenright1o@archive.org</correo_electronico>
+                <fecha_inclusion>10/07/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>061</detalle_numero_pedido>
+                    <fecha_compra>10/07/2022</fecha_compra>
+                    <fecha_entrega>17/07/2022</fecha_entrega>
+                    <total_factura>945€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung Galaxy M13 4/128GB Verde Libre</nombre_producto>
+                            <referencia>AG7</referencia>
+                            <precio>189€</precio>
+                            <unidades>5</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Maurizia</nombre>
+                <apellidos>Oakton</apellidos>
+                <telefono>788-314-7456</telefono>
+                <direccion>
+                    <calle>31274 Denesik Prairie</calle>
+                    <ciudad>Dover</ciudad>
+                    <codigo_postal>75368</codigo_postal>
+                    <provincia>Georgia</provincia>
+                </direccion>
+                <correo_electronico>moakton1p@biglobe.ne.jp</correo_electronico>
+                <fecha_inclusion>16/08/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>062</detalle_numero_pedido>
+                    <fecha_compra>16/08/2022</fecha_compra>
+                    <fecha_entrega>23/08/2022</fecha_entrega>
+                    <total_factura>199,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Nilox NXM24FHD01 24" LED FullHD 75Hz</nombre_producto>
+                            <referencia>AG8</referencia>
+                            <precio>99,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Erminie</nombre>
+                <apellidos>Jime</apellidos>
+                <telefono>806-366-1786</telefono>
+                <direccion>
+                    <calle>828 Jakubowski Fields</calle>
+                    <ciudad>Spartanburg</ciudad>
+                    <codigo_postal>60264</codigo_postal>
+                    <provincia>Oklahoma</provincia>
+                </direccion>
+                <correo_electronico>bjime9@domainmarket.com</correo_electronico>
+                <fecha_inclusion>02/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>063</detalle_numero_pedido>
+                    <fecha_compra>17/08/2022</fecha_compra>
+                    <fecha_entrega>24/08/2022</fecha_entrega>
+                    <total_factura>99,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung 980 SSD 1TB PCIe 3.0 NVMe M.2</nombre_producto>
+                            <referencia>AG9</referencia>
+                            <precio>99,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Axel</nombre>
+                <apellidos>Anthill</apellidos>
+                <telefono>179-952-4515</telefono>
+                <direccion>
+                    <calle>3469 Ethelyn Vista</calle>
+                    <ciudad>Little Rock</ciudad>
+                    <codigo_postal>79462</codigo_postal>
+                    <provincia>South Dakota</provincia>
+                </direccion>
+                <correo_electronico>aanthill1@phpbb.com</correo_electronico>
+                <fecha_inclusion>22/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>064</detalle_numero_pedido>
+                    <fecha_compra>18/08/2022</fecha_compra>
+                    <fecha_entrega>25/08/2022</fecha_entrega>
+                    <total_factura>549€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>ASUS VivoBook 15 F1502ZA-EJ733 Intel Core i5-1235U/8GB/512GB SSD/15.6"</nombre_producto>
+                            <referencia>AH1</referencia>
+                            <precio>549€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wynn</nombre>
+                <apellidos>Pickavant</apellidos>
+                <telefono>211-284-2772</telefono>
+                <direccion>
+                    <calle>243 Kip Isle</calle>
+                    <ciudad>Bellevue</ciudad>
+                    <codigo_postal>04403</codigo_postal>
+                    <provincia>Rhode Island</provincia>
+                </direccion>
+                <correo_electronico>mpickavanta@buzzfeed.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>065</detalle_numero_pedido>
+                    <fecha_compra>19/08/2022</fecha_compra>
+                    <fecha_entrega>26/08/2022</fecha_entrega>
+                    <total_factura>1974,94€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Intel Core i7-11700K/16GB/1TB SSD/RTX 3070</nombre_producto>
+                            <referencia>AH2</referencia>
+                            <precio>1974,94€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Farley</nombre>
+                <apellidos>Colthard</apellidos>
+                <telefono>925-323-3578</telefono>
+                <direccion>
+                    <calle>455 Lea Walks</calle>
+                    <ciudad>San Diego</ciudad>
+                    <codigo_postal>75303</codigo_postal>
+                    <provincia>California</provincia>
+                </direccion>
+                <correo_electronico>ncolthard3@marriott.com</correo_electronico>
+                <fecha_inclusion>25/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>066</detalle_numero_pedido>
+                    <fecha_compra>20/08/2022</fecha_compra>
+                    <fecha_entrega>27/08/2022</fecha_entrega>
+                    <total_factura>199,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Nilox NXM24FHD01 24" LED FullHD 75Hz</nombre_producto>
+                            <referencia>AH3</referencia>
+                            <precio>99,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wilma</nombre>
+                <apellidos>Taig</apellidos>
+                <telefono>899-611-0473</telefono>
+                <direccion>
+                    <calle>8559 Schumm Glen</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>96890</codigo_postal>
+                    <provincia>Wyoming</provincia>
+                </direccion>
+                <correo_electronico>rtaig5@imdb.com</correo_electronico>
+                <fecha_inclusion>01/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>067</detalle_numero_pedido>
+                    <fecha_compra>21/08/2022</fecha_compra>
+                    <fecha_entrega>28/08/2022</fecha_entrega>
+                    <total_factura>339,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>TCL 32S615 32" LED HD HDR10</nombre_producto>
+                            <referencia>AH4</referencia>
+                            <precio>169,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Ursula</nombre>
+                <apellidos>Clere</apellidos>
+                <telefono>152-466-4177</telefono>
+                <direccion>
+                    <calle>6131 Fay Track</calle>
+                    <ciudad>Ogden</ciudad>
+                    <codigo_postal>70091</codigo_postal>
+                    <provincia>Wisconsin</provincia>
+                </direccion>
+                <correo_electronico>sclere1v@goo.gl</correo_electronico>
+                <fecha_inclusion>14/02/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>068</detalle_numero_pedido>
+                    <fecha_compra>01/09/2022</fecha_compra>
+                    <fecha_entrega>08/09/2022</fecha_entrega>
+                    <total_factura>189€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Samsung Galaxy M13 4/128GB Azul Libre</nombre_producto>
+                            <referencia>AH5</referencia>
+                            <precio>189€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Sile</nombre>
+                <apellidos>Gabbidon</apellidos>
+                <telefono>875-788-6660</telefono>
+                <direccion>
+                    <calle>513 Hintz Road</calle>
+                    <ciudad>Las Vegas</ciudad>
+                    <codigo_postal>39662</codigo_postal>
+                    <provincia>Nebraska</provincia>
+                </direccion>
+                <correo_electronico>mgabbidon1w@google.de</correo_electronico>
+                <fecha_inclusion>02/01/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>069</detalle_numero_pedido>
+                    <fecha_compra>02/09/2022</fecha_compra>
+                    <fecha_entrega>09/09/2022</fecha_entrega>
+                    <total_factura>600€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Kingston A400 SSD 480GB</nombre_producto>
+                            <referencia>AH6</referencia>
+                            <precio>30€</precio>
+                            <unidades>20</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Cyndy</nombre>
+                <apellidos>Wadge</apellidos>
+                <telefono>786-728-3977</telefono>
+                <direccion>
+                    <calle>46955 Mosciski Mill</calle>
+                    <ciudad>Bismarck</ciudad>
+                    <codigo_postal>05863</codigo_postal>
+                    <provincia>Kansas</provincia>
+                </direccion>
+                <correo_electronico>swadge2@un.org</correo_electronico>
+                <fecha_inclusion>22/06/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>070</detalle_numero_pedido>
+                    <fecha_compra>03/09/2022</fecha_compra>
+                    <fecha_entrega>10/09/2022</fecha_entrega>
+                    <total_factura>229,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>LG 27UL500-W 27" LED IPS UltraHD 4K FreeSync</nombre_producto>
+                            <referencia>AH7</referencia>
+                            <precio>229,98€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_3>
+        <trimestre_4>
+            
+            <info_pedidos>
+                <nombre>Alvira</nombre>
+                <apellidos>Gegg</apellidos>
+                <telefono>556-581-3158</telefono>
+                <direccion>
+                    <calle>8776 Streich Tunnel</calle>
+                    <ciudad>Rockville</ciudad>
+                    <codigo_postal>70455</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>20/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>071</detalle_numero_pedido>
+                    <fecha_compra>01/10/2022</fecha_compra>
+                    <fecha_entrega>08/10/2022</fecha_entrega>
+                    <total_factura>799€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>ASUS TUF Gaming F15 FX506HC-HN004 Intel Core i5-11400H/16GB/512GB SSD/RTX 3050/15.6"</nombre_producto>
+                            <referencia>AH8</referencia>
+                            <precio>799€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Ivett</nombre>
+                <apellidos>Heustace</apellidos>
+                <telefono>211-456-9031</telefono>
+                <direccion>
+                    <calle>283 Senger Lodge</calle>
+                    <ciudad>Corvallis</ciudad>
+                    <codigo_postal>18852</codigo_postal>
+                    <provincia>Georgia</provincia>
+                </direccion>
+                <correo_electronico>aheustace1z@paginegialle.it</correo_electronico>
+                <fecha_inclusion>21/10/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>072</detalle_numero_pedido>
+                    <fecha_compra>21/10/2022</fecha_compra>
+                    <fecha_entrega>28/10/2022</fecha_entrega>
+                    <total_factura>4574€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Basic Elite Pro Intel Core i5-10400/8GB/480GBSSD</nombre_producto>
+                            <referencia>AH9</referencia>
+                            <precio>457,40€</precio>
+                            <unidades>10</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Lawry</nombre>
+                <apellidos>Mustard</apellidos>
+                <telefono>178-469-3094</telefono>
+                <direccion>
+                    <calle>10146 Alejandrin Gateway</calle>
+                    <ciudad>Wilmington</ciudad>
+                    <codigo_postal>92648</codigo_postal>
+                    <provincia>Montana</provincia>
+                </direccion>
+                <correo_electronico>omustard20@w3.org</correo_electronico>
+                <fecha_inclusion>10/11/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>073</detalle_numero_pedido>
+                    <fecha_compra>10/11/2022</fecha_compra>
+                    <fecha_entrega>17/11/2022</fecha_entrega>
+                    <total_factura>154,51€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Lenovo C24-25 23.8" WLED FullHD FreeSync</nombre_producto>
+                            <referencia>AI1</referencia>
+                            <precio>154,51€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Rebecca</nombre>
+                <apellidos>Goddard</apellidos>
+                <telefono>144-850-4037</telefono>
+                <direccion>
+                    <calle>63003 Monroe Pass</calle>
+                    <ciudad>Vineland</ciudad>
+                    <codigo_postal>12317</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>igoddard21@gravatar.com</correo_electronico>
+                <fecha_inclusion>21/12/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>074</detalle_numero_pedido>
+                    <fecha_compra>21/12/2022</fecha_compra>
+                    <fecha_entrega>28/12/2022</fecha_entrega>
+                    <total_factura>248,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>TCL 43P631 43" LED UltraHD 4K Google TV</nombre_producto>
+                            <referencia>AI2</referencia>
+                            <precio>248,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Bryon</nombre>
+                <apellidos>Coley</apellidos>
+                <telefono>566-252-2424</telefono>
+                <direccion>
+                    <calle>7445 Adolph Highway</calle>
+                    <ciudad>Burlington</ciudad>
+                    <codigo_postal>60959</codigo_postal>
+                    <provincia>Florida</provincia>
+                </direccion>
+                <correo_electronico>rcoley22@mtv.com</correo_electronico>
+                <fecha_inclusion>03/10/2022</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>075</detalle_numero_pedido>
+                    <fecha_compra>03/10/2022</fecha_compra>
+                    <fecha_entrega>10/10/2022</fecha_entrega>
+                    <total_factura>498,54€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Basic Intel Core i5 10400/16GB/500GB SSD</nombre_producto>
+                            <referencia>AI3</referencia>
+                            <precio>498,54€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Alvira</nombre>
+                <apellidos>Gegg</apellidos>
+                <telefono>556-581-3158</telefono>
+                <direccion>
+                    <calle>8776 Streich Tunnel</calle>
+                    <ciudad>Rockville</ciudad>
+                    <codigo_postal>70455</codigo_postal>
+                    <provincia>New Hampshire</provincia>
+                </direccion>
+                <correo_electronico>rgegge@nsw.gov.au</correo_electronico>
+                <fecha_inclusion>20/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>076</detalle_numero_pedido>
+                    <fecha_compra>10/10/2022</fecha_compra>
+                    <fecha_entrega>17/10/2022</fecha_entrega>
+                    <total_factura>103,98€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Kingston FURY Beast DDR4 3200 MHz 16GB 2x8GB CL16</nombre_producto>
+                            <referencia>AI4</referencia>
+                            <precio>51,99€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Farley</nombre>
+                <apellidos>Colthard</apellidos>
+                <telefono>925-323-3578</telefono>
+                <direccion>
+                    <calle>455 Lea Walks</calle>
+                    <ciudad>San Diego</ciudad>
+                    <codigo_postal>75303</codigo_postal>
+                    <provincia>California</provincia>
+                </direccion>
+                <correo_electronico>ncolthard3@marriott.com</correo_electronico>
+                <fecha_inclusion>25/02/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>077</detalle_numero_pedido>
+                    <fecha_compra>01/11/2022</fecha_compra>
+                    <fecha_entrega>08/11/2022</fecha_entrega>
+                    <total_factura>429,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Lenovo IdeaPad 3 15ITL6 Intel Core i3-1115G4/8GB/256GB SSD/15.6" Azul</nombre_producto>
+                            <referencia>AI5</referencia>
+                            <precio>429,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wynn</nombre>
+                <apellidos>Pickavant</apellidos>
+                <telefono>211-284-2772</telefono>
+                <direccion>
+                    <calle>243 Kip Isle</calle>
+                    <ciudad>Bellevue</ciudad>
+                    <codigo_postal>04403</codigo_postal>
+                    <provincia>Rhode Island</provincia>
+                </direccion>
+                <correo_electronico>mpickavanta@buzzfeed.com</correo_electronico>
+                <fecha_inclusion>20/04/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>078</detalle_numero_pedido>
+                    <fecha_compra>20/11/2022</fecha_compra>
+                    <fecha_entrega>27/11/2022</fecha_entrega>
+                    <total_factura>1361,78€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>PcCom Gold Pro AMD Ryzen 5 5600X/16GB/1TB SSD/RTX 3060</nombre_producto>
+                            <referencia>AI6</referencia>
+                            <precio>1361,78€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wilma</nombre>
+                <apellidos>Taig</apellidos>
+                <telefono>899-611-0473</telefono>
+                <direccion>
+                    <calle>8559 Schumm Glen</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>96890</codigo_postal>
+                    <provincia>Wyoming</provincia>
+                </direccion>
+                <correo_electronico>rtaig5@imdb.com</correo_electronico>
+                <fecha_inclusion>01/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>079</detalle_numero_pedido>
+                    <fecha_compra>12/12/2022</fecha_compra>
+                    <fecha_entrega>19/12/2022</fecha_entrega>
+                    <total_factura>199,96€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>Nilox NXM24FHD01 24" LED FullHD 75Hz</nombre_producto>
+                            <referencia>AI7</referencia>
+                            <precio>99,98€</precio>
+                            <unidades>2</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+            <info_pedidos>
+                <nombre>Wilma</nombre>
+                <apellidos>Taig</apellidos>
+                <telefono>899-611-0473</telefono>
+                <direccion>
+                    <calle>8559 Schumm Glen</calle>
+                    <ciudad>Casper</ciudad>
+                    <codigo_postal>96890</codigo_postal>
+                    <provincia>Wyoming</provincia>
+                </direccion>
+                <correo_electronico>rtaig5@imdb.com</correo_electronico>
+                <fecha_inclusion>01/03/2021</fecha_inclusion>
+                <info_individual_pedido>
+                    <detalle_numero_pedido>080</detalle_numero_pedido>
+                    <fecha_compra>24/12/2022</fecha_compra>
+                    <fecha_entrega>31/12/2022</fecha_entrega>
+                    <total_factura>248,99€</total_factura>
+                    <info_productos>
+                        <info_producto>
+                            <nombre_producto>TCL 43P631 43" LED UltraHD 4K Google TV</nombre_producto>
+                            <referencia>AI8</referencia>
+                            <precio>248,99€</precio>
+                            <unidades>1</unidades>
+                        </info_producto>
+                    </info_productos>
+                </info_individual_pedido>
+            </info_pedidos>
+        </trimestre_4>
+    </año_2022>
+</pedidos>

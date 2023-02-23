@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Notas</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <h1>Pedidos por trimestre</h1>
+
+
+      
+    <script>
+        if (window.XMLHttpRequest)
+        {
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.open("GET","../pedidos.xml",false);
+        xmlhttp.send();
+        xmlDoc=xmlhttp.responseXML;
+        const section = document.querySelector('section');
+        document.write("<table class='table' border='1'>");
+        var year=xmlDoc.getElementsByTagName("año_2021")[0];
+        var trim=year.getElementsByTagName("trimestre_1")[0];
+        var pedidos=trim.getElementsByTagName("info_pedidos");
+        document.write("<h1>Año 2021 | Trimestre 1</h1>");
+        
+        
+        for(var i=0;i<pedidos.length;i++)
+        {
+            nombre=pedidos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue
+            apellidos=pedidos[i].getElementsByTagName("apellidos")[0].childNodes[0].nodeValue
+            telefono=pedidos[i].getElementsByTagName("telefono")[0].childNodes[0].nodeValue
+
+            calle=pedidos[i].getElementsByTagName("calle")[0].childNodes[0].nodeValue
+            ciudad=pedidos[i].getElementsByTagName("ciudad")[0].childNodes[0].nodeValue
+            codigo_postal=pedidos[i].getElementsByTagName("codigo_postal")[0].childNodes[0].nodeValue
+            provincia=pedidos[i].getElementsByTagName("provincia")[0].childNodes[0].nodeValue
+            correo_electronico=pedidos[i].getElementsByTagName("correo_electronico")[0].childNodes[0].nodeValue
+            fecha_inclusion=pedidos[i].getElementsByTagName("fecha_inclusion")[0].childNodes[0].nodeValue
+            detalle_numero_pedido=pedidos[i].getElementsByTagName("detalle_numero_pedido")[0].childNodes[0].nodeValue
+            fecha_compra=pedidos[i].getElementsByTagName("fecha_compra")[0].childNodes[0].nodeValue
+            fecha_entrega=pedidos[i].getElementsByTagName("fecha_entrega")[0].childNodes[0].nodeValue
+            total_factura=pedidos[i].getElementsByTagName("total_factura")[0].childNodes[0].nodeValue
+            nombre_producto=pedidos[i].getElementsByTagName("nombre_producto")[0].childNodes[0].nodeValue
+            referencia=pedidos[i].getElementsByTagName("referencia")[0].childNodes[0].nodeValue
+            precio=pedidos[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue
+            unidades=pedidos[i].getElementsByTagName("unidades")[0].childNodes[0].nodeValue
+
+            document.write("<tr><th>");
+            document.write(nombre);
+            document.write("</td><th>");
+            document.write(apellidos);
+            document.write("</td><th>");
+            document.write(telefono);
+            document.write("</td><th>");
+            document.write(calle);
+            document.write("</td><th>");
+            document.write(ciudad);
+            document.write("</td><th>");
+            document.write(codigo_postal);
+            document.write("</td><th>");
+            document.write(provincia);
+            document.write("</td><th>");
+            document.write(correo_electronico);
+            document.write("</td><th>");
+            document.write(fecha_inclusion);
+            document.write("</td><th>");
+            document.write(detalle_numero_pedido);
+            document.write("</td><th>");
+            document.write(fecha_compra);
+            document.write("</td><th>");
+            document.write(fecha_entrega);
+            document.write("</td><th>");
+            document.write(total_factura);
+            document.write("</td><th>");
+            document.write(nombre_producto);
+            document.write("</td><th>");
+            document.write(referencia);
+            document.write("</td><th>");
+            document.write(precio);
+            document.write("</td><th>");
+            document.write(unidades);
+            document.write("</td></tr>");
+        }
+       
+    </script>
+
+
+
+    <script>    
+        document.write("</table>");
+        document.write("<table class='table' border='1'>");
+        var year=xmlDoc.getElementsByTagName("año_2022")[0];
+        var trim=year.getElementsByTagName("trimestre_4")[0];
+        var pedidos=trim.getElementsByTagName("info_pedidos");
+        document.write("<h1>Año 2022 | Trimestre 4</h1>");
+        
+        for(var i=0;i<pedidos.length;i++)
+        {
+            nombre=pedidos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue
+            apellidos=pedidos[i].getElementsByTagName("apellidos")[0].childNodes[0].nodeValue
+            telefono=pedidos[i].getElementsByTagName("telefono")[0].childNodes[0].nodeValue
+
+            calle=pedidos[i].getElementsByTagName("calle")[0].childNodes[0].nodeValue
+            ciudad=pedidos[i].getElementsByTagName("ciudad")[0].childNodes[0].nodeValue
+            codigo_postal=pedidos[i].getElementsByTagName("codigo_postal")[0].childNodes[0].nodeValue
+            provincia=pedidos[i].getElementsByTagName("provincia")[0].childNodes[0].nodeValue
+            correo_electronico=pedidos[i].getElementsByTagName("correo_electronico")[0].childNodes[0].nodeValue
+            fecha_inclusion=pedidos[i].getElementsByTagName("fecha_inclusion")[0].childNodes[0].nodeValue
+            detalle_numero_pedido=pedidos[i].getElementsByTagName("detalle_numero_pedido")[0].childNodes[0].nodeValue
+            fecha_compra=pedidos[i].getElementsByTagName("fecha_compra")[0].childNodes[0].nodeValue
+            fecha_entrega=pedidos[i].getElementsByTagName("fecha_entrega")[0].childNodes[0].nodeValue
+            total_factura=pedidos[i].getElementsByTagName("total_factura")[0].childNodes[0].nodeValue
+            nombre_producto=pedidos[i].getElementsByTagName("nombre_producto")[0].childNodes[0].nodeValue
+            referencia=pedidos[i].getElementsByTagName("referencia")[0].childNodes[0].nodeValue
+            precio=pedidos[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue
+            unidades=pedidos[i].getElementsByTagName("unidades")[0].childNodes[0].nodeValue
+
+            document.write("<tr><th>");
+            document.write(nombre);
+            document.write("</th><th>");
+            document.write(apellidos);
+            document.write("</th><th>");
+            document.write(telefono);
+            document.write("</th><th>");
+            document.write(calle);
+            document.write("</th><th>");
+            document.write(ciudad);
+            document.write("</th><th>");
+            document.write(codigo_postal);
+            document.write("</th><th>");
+            document.write(provincia);
+            document.write("</th><th>");
+            document.write(correo_electronico);
+            document.write("</th><th>");
+            document.write(fecha_inclusion);
+            document.write("</th><th>");
+            document.write(detalle_numero_pedido);
+            document.write("</th><th>");
+            document.write(fecha_compra);
+            document.write("</th><th>");
+            document.write(fecha_entrega);
+            document.write("</th><th>");
+            document.write(total_factura);
+            document.write("</th><th>");
+            document.write(nombre_producto);
+            document.write("</th><th>");
+            document.write(referencia);
+            document.write("</th><th>");
+            document.write(precio);
+            document.write("</th><th>");
+            document.write(unidades);
+            document.write("</th></tr>");
+        }
+        document.write("</table>");
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<html lang="ee-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos tabla hito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro de los pedidos</h1>
+    <section>
+    </section>
+    <script>
+        if (window.XMLHttpRequest)
+        {
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.open("GET","../pedidos.xml",false);
+        xmlhttp.send();
+        xmlDoc=xmlhttp.responseXML;
+        const section = document.querySelector('section');
+        document.write("<table class='table'>");
+        document.write("<thead class='thead-dark'>");
+        var pedidos=xmlDoc.getElementsByTagName("info_pedidos");
+        
+        for(var i=0;i<pedidos.length;i++)
+        {
+            nombre=pedidos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue
+            apellidos=pedidos[i].getElementsByTagName("apellidos")[0].childNodes[0].nodeValue
+            telefono=pedidos[i].getElementsByTagName("telefono")[0].childNodes[0].nodeValue
+            calle=pedidos[i].getElementsByTagName("calle")[0].childNodes[0].nodeValue
+            ciudad=pedidos[i].getElementsByTagName("ciudad")[0].childNodes[0].nodeValue
+            codigo_postal=pedidos[i].getElementsByTagName("codigo_postal")[0].childNodes[0].nodeValue
+            provincia=pedidos[i].getElementsByTagName("provincia")[0].childNodes[0].nodeValue
+            correo_electronico=pedidos[i].getElementsByTagName("correo_electronico")[0].childNodes[0].nodeValue
+            fecha_inclusion=pedidos[i].getElementsByTagName("fecha_inclusion")[0].childNodes[0].nodeValue
+            detalle_numero_pedido=pedidos[i].getElementsByTagName("detalle_numero_pedido")[0].childNodes[0].nodeValue
+            fecha_compra=pedidos[i].getElementsByTagName("fecha_compra")[0].childNodes[0].nodeValue
+            fecha_entrega=pedidos[i].getElementsByTagName("fecha_entrega")[0].childNodes[0].nodeValue
+            total_factura=pedidos[i].getElementsByTagName("total_factura")[0].childNodes[0].nodeValue
+            nombre_producto=pedidos[i].getElementsByTagName("nombre_producto")[0].childNodes[0].nodeValue
+            referencia=pedidos[i].getElementsByTagName("referencia")[0].childNodes[0].nodeValue
+            precio=pedidos[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue
+            unidades=pedidos[i].getElementsByTagName("unidades")[0].childNodes[0].nodeValue
+
+            document.write("<tr><th>");
+            document.write(nombre);
+            document.write("</td><th>");
+            document.write(apellidos);
+            document.write("</td><th>");
+            document.write(telefono);
+            document.write("</td><th>");
+            document.write(calle);
+            document.write("</td><th>");
+            document.write(ciudad);
+            document.write("</td><th>");
+            document.write(codigo_postal);
+            document.write("</td><th>");
+            document.write(provincia);
+            document.write("</td><th>");
+            document.write(correo_electronico);
+            document.write("</td><th>");
+            document.write(fecha_inclusion);
+            document.write("</td><th>");
+            document.write(detalle_numero_pedido);
+            document.write("</td><th>");
+            document.write(fecha_compra);
+            document.write("</td><th>");
+            document.write(fecha_entrega);
+            document.write("</td><th>");
+            document.write(total_factura);
+            document.write("</td><th>");
+            document.write(nombre_producto);
+            document.write("</td><th>");
+            document.write(referencia);
+            document.write("</td><th>");
+            document.write(precio);
+            document.write("</td><th>");
+            document.write(unidades);
+            document.write("</td></tr>");
+        }
+        document.write("</thead>");
+        document.write("</table>");
+
+    </script>
+    </table>
+
+</body>
+</html>

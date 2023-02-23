@@ -1,0 +1,182 @@
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container ">
+        <div class="row justify-content-md-center">
+            <div class="col-12 text-center" id>
+              <h1>Factura de los pedidos</h1> 
+            </div>
+        </div>
+        <form>
+            <fieldset>
+                <label for="idnumber">Ingrese el número de pedido (de 1 a <span id="number"></span>): </label>
+                <input type="number" id="idnumber" name="idnumber">
+                <button type="submit" id="submitBtn">Submit</button>
+            </fieldset>
+        </form>
+        <div id="log" class="mt-3"></div>
+        <div class="table-responsive mt-3">
+            <div class="container text-center">
+                <div class="row justify-content-start">
+                  <div class="col-3 text-light bg-secondary border border-dark">
+                    Nombre: 
+                  </div>
+                  <div class="col-3 text-dark bg-dark-subtle border border-dark text-start" id="nombre">
+                    
+                  </div>
+                  <div class="col-3 text-light bg-secondary border border-dark">
+                    Apellido: 
+                  </div>
+                  <div class="col-3 text-dark bg-dark-subtle border border-dark text-start" id="apellidos">
+                    
+                  </div>
+                </div>
+                  <div class="row justify-content-between">
+                  <div class="col-6 text-light bg-secondary border border-dark">
+                    Número de pedido: 
+                  </div>
+                  <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="detalle_numero_pedido">
+                  </div>
+                </div>
+            
+                <div class="row justify-content-between">
+                  <div class="col-6 text-light bg-secondary border border-dark">
+                    Fecha de compra: 
+                  </div>
+                  <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="fecha_compra">
+                    
+                  </div>
+                </div>
+                <div class="row justify-content-evenly">
+                  <div class="col-6 text-light bg-secondary border border-dark">
+                    Fecha de entrega: 
+                  </div>
+                  <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="fecha_entrega">
+                    
+                  </div>
+                </div>
+                <div class="row justify-content-evenly">
+                  <div class="col-6 text-light bg-secondary border border-dark">
+                    Total de la factura: 
+                  </div>
+                  <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="total_factura">
+                    
+                  </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-6 text-light bg-secondary border border-dark">
+                    Nombre del producto:
+                    </div>
+                    <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="nombre_producto">
+                      
+                    </div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 text-light bg-secondary border border-dark">
+                    Código de referencia: 
+                    </div>
+                    <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="referencia">
+                      
+                    </div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 text-light bg-secondary border border-dark">
+                        Precio del producto: 
+                    </div>
+                    <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="precio">
+                      
+                    </div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 text-light bg-secondary border border-dark">
+                        Unidades: 
+                    </div>
+                    <div class="col-6 text-dark bg-dark-subtle border border-dark text-start" id="unidades">
+                      
+                    </div>
+                  </div>
+              </div>
+        </div>
+	<script>
+        const xhr = new XMLHttpRequest();
+		xhr.open("GET", "../pedidos.xml", true);
+    
+        window.addEventListener("load", function() {
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "../pedidos.xml", true);
+
+        xhr.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+            const xmlDoc = this.responseXML;
+            const numberSpan = document.querySelector("#number");
+            const pedidos = xmlDoc.getElementsByTagName("info_individual_pedido");
+            numberSpan.innerHTML = pedidos.length - 1;
+            }
+  };
+
+  xhr.send();
+});
+
+
+    xhr.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+            const xmlDoc = this.responseXML;
+            const form = document.querySelector("form");
+
+            form.addEventListener("submit", function(event) {
+			event.preventDefault();
+			const idNumber = document.querySelector("#idnumber").value;
+			const pedidos = xmlDoc.getElementsByTagName("info_pedidos");
+			if (idNumber < 1 || idNumber > (pedidos.length - 1)) {
+        document.querySelector("#nombre").innerHTML = "";
+        document.querySelector("#apellidos").innerHTML = "";
+        document.querySelector("#detalle_numero_pedido").innerHTML = "";
+        document.querySelector("#fecha_compra").innerHTML = "";
+        document.querySelector("#fecha_entrega").innerHTML = "";
+        document.querySelector("#total_factura").innerHTML = "";
+        document.querySelector("#nombre_producto").innerHTML = "";
+        document.querySelector("#referencia").innerHTML = "";
+        document.querySelector("#precio").innerHTML = "";
+        document.querySelector("#unidades").innerHTML = "";
+        log.innerHTML = "No se encontró pedido con ese número";
+        return;
+      }
+			const pedido = pedidos[idNumber];
+            const nombre = pedido.getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+            const apellidos = pedido.getElementsByTagName("apellidos")[0].childNodes[0].nodeValue;
+            const detalle_numero_pedido = pedido.getElementsByTagName("detalle_numero_pedido")[0].childNodes[0].nodeValue;
+            const fecha_compra = pedido.getElementsByTagName("fecha_compra")[0].childNodes[0].nodeValue;
+            const fecha_entrega = pedido.getElementsByTagName("fecha_entrega")[0].childNodes[0].nodeValue;
+            const total_factura = pedido.getElementsByTagName("total_factura")[0].childNodes[0].nodeValue;
+            const nombre_producto = pedido.getElementsByTagName("nombre_producto")[0].childNodes[0].nodeValue;
+            const referencia = pedido.getElementsByTagName("referencia")[0].childNodes[0].nodeValue;
+            const precio = pedido.getElementsByTagName("precio")[0].childNodes[0].nodeValue;
+            const unidades = pedido.getElementsByTagName("unidades")[0].childNodes[0].nodeValue;
+
+            document.querySelector("#nombre").innerHTML = nombre;
+            document.querySelector("#apellidos").innerHTML = apellidos;
+            document.querySelector("#detalle_numero_pedido").innerHTML = detalle_numero_pedido;
+            document.querySelector("#fecha_compra").innerHTML = fecha_compra;
+            document.querySelector("#fecha_entrega").innerHTML = fecha_entrega;
+            document.querySelector("#total_factura").innerHTML = total_factura;
+            document.querySelector("#nombre_producto").innerHTML = nombre_producto;
+            document.querySelector("#referencia").innerHTML = referencia;
+            document.querySelector("#precio").innerHTML = precio;
+            document.querySelector("#unidades").innerHTML = unidades;
+});
+
+		}
+	};
+	xhr.send();
+</script>
+</body>
+</html>
